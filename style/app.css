@@ -18,7 +18,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 7px 10%;
     background-color:rgb(0, 28, 45);
     display: flex;
     justify-content: space-between;
@@ -303,20 +303,23 @@ img{
 .segi{
     background: url(/aset/wa13.jpg);
     background-size: cover;
-    padding: 10px;
+    padding: 20px;
 
 }
 
 .contact{
   
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat( 1fr);
     align-items: center;
-    padding-left: 30px;
-    margin-top: 130px;
+    padding: 10px;
+
+     
 }
+
 .contact-text h2{
-    font-size: 80px;
+    font-size: 70px;
+    padding: 2px;
     
     
   
@@ -326,7 +329,7 @@ img{
 
 }
 .contact-text h4{
-    margin: 15px 0;
+    margin: 10px 0;
     color: #ffffff;
     font-size: 20px;
     font-weight: 600;
@@ -335,10 +338,9 @@ img{
 .p {
     color: rgb(238, 237, 244);
     font-size: 20px;
-    line-height: 30px;
-    max-width: 2rem;
+    line-height:0px;
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
 }
 .contact-list{
     margin-bottom: 3rem;
@@ -374,7 +376,7 @@ img{
     font-size: 20px;
     color: #0ef;
     text-decoration: none;
-    margin: 30px 15px 30px 0;
+    margin: 10px 15px 20px 0;
     transition: .5s ease;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2S * var(--i));
@@ -389,9 +391,9 @@ img{
     position: relative;
 }
 input , form textarea{
-    border: none;
-    outline: none;
-    width: 90%;
+   border: none;
+   outline: none;
+   width: 90%;
    padding: 18px;
    background: #d1d1d5;
    color: #000000;
